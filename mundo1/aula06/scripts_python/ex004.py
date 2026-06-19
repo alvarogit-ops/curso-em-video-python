@@ -1,0 +1,10 @@
+txt = input("Digite qualquer coisa: ")
+
+print("É maiúsculo?")
+print(txt.isupper())
+print("É minúsculo?")
+print(txt.islower())
+print("É título?")
+print(txt.istitle())
+print("É identificador de usuário?")
+print(txt.isidentifier())
