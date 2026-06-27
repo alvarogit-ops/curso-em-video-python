@@ -1,4 +1,4 @@
-n1 = float(input("Digite um número: "))
-n2 = float(input("Digite outro número: "))
+n1 = float(input("\033[1;32mDigite um número: "))
+n2 = float(input("\033[1;32mDigite outro número: "))
 
-print(f"A soma entre {n1} e {n2} é igual a {n1 + n2}")
+print(f"\033[1;32mA soma entre \033[1;34m{n1}\033[1;32m e \033[1;34m{n2}\033[1;32m é igual a \033[1;34m{n1 + n2}")
